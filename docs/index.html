@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spielplatz Fund - Verloren auf dem Spielplatz</title>
+</head>
+<body>
+  <section id="found">
+    <h2>Etwas gefunden?</h2>
+    <form action="/" method="POST">
+      <section>
+          <label for="where">Wo?</label>
+          <input name="where" id="where" type="text"/>
+      </section>
+      <section>
+          <label for="what">Was?</label>
+          <input name="what" id="what" type="text"/>
+      </section>
+    </form>
+  </section>
+  <section id="lost">
+    <h2>Etwas verloren?</h2>
+    <form action="/" method="GET">
+      <label for="where">Wo?</label>
+      <input name="where" id="where" type="text"/>
+    </form>
+  </section>
+</body>
+</html>
